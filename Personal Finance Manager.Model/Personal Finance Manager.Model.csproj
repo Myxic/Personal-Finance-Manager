@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DTOs\" />
+    <None Remove="Enitities\" />
+    <None Remove="DTOs\Requests\" />
+    <None Remove="DTOs\Response\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Enitities\" />
+    <Folder Include="DTOs\Requests\" />
+    <Folder Include="DTOs\Response\" />
+  </ItemGroup>
 </Project>

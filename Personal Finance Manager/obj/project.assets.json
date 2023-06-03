@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Personal Finance Manager.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Personal Finance Manager.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Personal Finance Manager.Model.dll": {}
+        }
+      },
+      "Personal Finance Manager.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Personal Finance Manager.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Personal Finance Manager.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Personal Finance Manager.Services.dll": {}
+        }
       }
     }
   },
@@ -216,10 +239,21 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Personal Finance Manager.Model/1.0.0": {
+      "type": "project",
+      "path": "../Personal Finance Manager.Model/Personal Finance Manager.Model.csproj",
+      "msbuildProject": "../Personal Finance Manager.Model/Personal Finance Manager.Model.csproj"
+    },
+    "Personal Finance Manager.Services/1.0.0": {
+      "type": "project",
+      "path": "../Personal Finance Manager.Services/Personal Finance Manager.Services.csproj",
+      "msbuildProject": "../Personal Finance Manager.Services/Personal Finance Manager.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Personal Finance Manager.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -248,7 +282,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/Personal Finance Manager.Services.csproj": {
+              "projectPath": "/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/Personal Finance Manager.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Personal Finance Manager.Model\Personal Finance Manager.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Interface\" />
+    <None Remove="Impentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+    <Folder Include="Impentation\" />
+  </ItemGroup>
 </Project>

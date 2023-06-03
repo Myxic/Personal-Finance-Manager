@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Personal Finance Manager.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Personal Finance Manager.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Personal Finance Manager.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Personal Finance Manager.Model/1.0.0": {
+      "type": "project",
+      "path": "../Personal Finance Manager.Model/Personal Finance Manager.Model.csproj",
+      "msbuildProject": "../Personal Finance Manager.Model/Personal Finance Manager.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Personal Finance Manager.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/mac/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/Personal Finance Manager.Model.csproj": {
+              "projectPath": "/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/Personal Finance Manager.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
