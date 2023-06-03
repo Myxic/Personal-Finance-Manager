@@ -5,6 +5,14 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Finance Manager", "Personal Finance Manager\Personal Finance Manager.csproj", "{6520959B-B3AF-4977-B993-A78265BBED24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Finance Manager.Data", "Personal Finance Manager.Data\Personal Finance Manager.Data.csproj", "{062E7435-B539-4667-B4D5-0F4762C198F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Finance Manager.Services", "Personal Finance Manager.Services\Personal Finance Manager.Services.csproj", "{C07AA6E8-BEF0-480E-A1AF-3AA6820EACF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Finance Manager.Model", "Personal Finance Manager.Model\Personal Finance Manager.Model.csproj", "{B274E725-BE2A-4422-BB5C-1B08371F1FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Finance Manager.Logger", "Personal Finance Manager.Logger\Personal Finance Manager.Logger.csproj", "{56988AEA-E789-4987-A361-BEEDEA39B601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{6520959B-B3AF-4977-B993-A78265BBED24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6520959B-B3AF-4977-B993-A78265BBED24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6520959B-B3AF-4977-B993-A78265BBED24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062E7435-B539-4667-B4D5-0F4762C198F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062E7435-B539-4667-B4D5-0F4762C198F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062E7435-B539-4667-B4D5-0F4762C198F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062E7435-B539-4667-B4D5-0F4762C198F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07AA6E8-BEF0-480E-A1AF-3AA6820EACF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07AA6E8-BEF0-480E-A1AF-3AA6820EACF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07AA6E8-BEF0-480E-A1AF-3AA6820EACF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07AA6E8-BEF0-480E-A1AF-3AA6820EACF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B274E725-BE2A-4422-BB5C-1B08371F1FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B274E725-BE2A-4422-BB5C-1B08371F1FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B274E725-BE2A-4422-BB5C-1B08371F1FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B274E725-BE2A-4422-BB5C-1B08371F1FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56988AEA-E789-4987-A361-BEEDEA39B601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56988AEA-E789-4987-A361-BEEDEA39B601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56988AEA-E789-4987-A361-BEEDEA39B601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56988AEA-E789-4987-A361-BEEDEA39B601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
