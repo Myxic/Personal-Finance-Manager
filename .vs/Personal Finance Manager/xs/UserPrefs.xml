@@ -1,4 +1,14 @@
 ﻿<Properties StartupConfiguration="{6520959B-B3AF-4977-B993-A78265BBED24}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Services FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Logger FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Data FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Middleware FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Model FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Personal Finance Manager/appsettings.json">
     <Files>
@@ -6,29 +16,20 @@
       <File FileName="Personal Finance Manager.Services/Class1.cs" />
       <File FileName="Personal Finance Manager.Model/Class1.cs" />
       <File FileName="Personal Finance Manager.Logger/Class1.cs" />
-      <File FileName="Personal Finance Manager/Program.cs" Line="1" Column="1" />
-      <File FileName="Personal Finance Manager.Middleware/Class1.cs" Line="1" Column="1" />
-      <File FileName="Personal Finance Manager/appsettings.json" Line="1" Column="1" />
+      <File FileName="Personal Finance Manager/Program.cs" />
+      <File FileName="Personal Finance Manager.Middleware/Class1.cs" />
+      <File FileName="Personal Finance Manager/appsettings.json" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Personal Finance Manager" expanded="True">
+            <Node name="Personal Finance Manager" expanded="True" />
             <Node name="Personal Finance Manager.Data" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Logger FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Middleware FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Data FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Services FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Model FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
