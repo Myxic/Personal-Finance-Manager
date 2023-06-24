@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Personal_Finance_Manager.Model.DTOs.Requests;
 using Personal_Finance_Manager.Model.Enitities;
@@ -13,6 +14,7 @@ namespace Personal_Finance_Manager.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class TransactionController : ControllerBase
     {
         private readonly ITransactionService _transactionService;
@@ -122,3 +124,5 @@ namespace Personal_Finance_Manager.Controllers
 
 }
 
+
+//Note to self: later try and use "IHttpContextAccessor contextAccessor" but that means you will remove userId so that you can use "IHttpContextAccessor contextAccessor" to call userId personally
