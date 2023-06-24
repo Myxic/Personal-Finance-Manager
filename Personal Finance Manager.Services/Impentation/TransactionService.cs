@@ -96,9 +96,12 @@ namespace Personal_Finance_Manager.Services.Impentation
             //.ToListAsync();
         }
 
-        public async Task<IEnumerable<Transaction>> GetTransactionsByCategory(int categoryId)
+        public async Task<IEnumerable<Transaction>> GetTransactionsByCategory(string userId, int categoryId)
         {
-            var transactions = await _transaction.GetByAsync(t => t.CategoryId == categoryId);
+            var transactions = await _dbContext.Transactions
+          .Where(t => t.UserId == userId && t.CategoryId == categoryId)
+          .ToListAsync();
+        
 
             return transactions;
         }

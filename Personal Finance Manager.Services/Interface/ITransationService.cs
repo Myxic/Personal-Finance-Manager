@@ -16,7 +16,7 @@ namespace Personal_Finance_Manager.Services.Interface
 
         Task<IEnumerable<Transaction>> GetTransactionsByUserId(string userId);
 
-        Task<IEnumerable<Transaction>> GetTransactionsByCategory(int categoryId);
+        Task<IEnumerable<Transaction>> GetTransactionsByCategory(string userId, int categoryId);
 
         Task<IEnumerable<Transaction>> GetTransactionsByDateRange(string userId, DateTime startDate, DateTime endDate);
 

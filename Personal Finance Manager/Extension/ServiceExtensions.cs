@@ -57,7 +57,7 @@ namespace Personal_Finance_Manager.Extension
                 options.Password.RequiredLength = 8;
             });
 
-            services.Configure<EmailJSConfiguration>(_configuration.GetSection("EmailJSConfiguration"));
+            //services.Configure<EmailJSConfiguration>(_configuration.GetSection("EmailJSConfiguration"));
 
 
 
@@ -65,6 +65,7 @@ namespace Personal_Finance_Manager.Extension
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             // Register the IEmailService implementation
             services.AddTransient<IEmailService, EmailService>();
+            services.AddScoped<ITransactionService, TransactionService>();
 
         }
     }
