@@ -1,0 +1,77 @@
+﻿using System;
+using Microsoft.AspNetCore.Identity;
+using Personal_Finance_Manager.Model.DTOs.Requests;
+using Personal_Finance_Manager.Model.Enitities;
+using Personal_Finance_Manager.Services.Interface;
+
+namespace Personal_Finance_Manager.Services.Impentation
+{
+    public class AuthenticationService : IAuthenticationService
+    {
+        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<User> _userManager;
+
+        public AuthenticationService(SignInManager<User> signInManager, UserManager<User> userManager)
+        {
+            _signInManager = signInManager;
+            _userManager = userManager;
+        }
+
+        public async Task<User> RegisterUser(RegisterUserModel userModel)
+        {
+            // Create a new User instance from the provided registration model
+            var user = new User
+            {
+                UserName = userModel.UserName,
+                FirstName = userModel.FirstName,
+                LastName = userModel.LastName,
+                DOB = userModel.DOB,
+                Email = userModel.EmailAddress
+                // Set other properties as needed
+            };
+
+            // Register the user using the UserManager
+            var result = await _userManager.CreateAsync(user, userModel.Password);
+
+            // Check if user registration was successful
+            if (result.Succeeded)
+            {
+                // Optionally, you can automatically sign in the user after registration
+                await _signInManager.SignInAsync(user, isPersistent: false);
+
+                return user;
+            }
+
+
+            // If registration fails, handle the error and return null or throw an exception
+            // You can access the errors using result.Errors property
+
+            return null;
+        }
+
+        public async Task<User> Login(string username, string password)
+        {
+            // Sign in the user using the SignInManager
+            var result = await _signInManager.PasswordSignInAsync(username, password, isPersistent: false, lockoutOnFailure: false);
+
+            if (result.Succeeded)
+            {
+                // If the user is successfully authenticated, retrieve the User object
+                var user = await _userManager.FindByNameAsync(username);
+                return user;
+            }
+
+            // If login fails, handle the error and return null or throw an exception
+
+            return null;
+        }
+
+        public async Task Logout()
+        {
+            // Sign out the current user using the SignInManager
+            await _signInManager.SignOutAsync();
+        }
+    }
+
+}
+

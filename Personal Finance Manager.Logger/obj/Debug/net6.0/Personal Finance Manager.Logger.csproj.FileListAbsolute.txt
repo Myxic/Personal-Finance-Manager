@@ -1,0 +1,12 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/bin/Debug/net6.0/Personal Finance Manager.Logger.deps.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/bin/Debug/net6.0/Personal Finance Manager.Logger.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/bin/Debug/net6.0/Personal Finance Manager.Logger.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/refint/Personal Finance Manager.Logger.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/Personal Finance Manager.Logger.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/obj/Debug/net6.0/ref/Personal Finance Manager.Logger.dll

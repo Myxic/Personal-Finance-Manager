@@ -1,0 +1,8 @@
+﻿using System;
+namespace Personal_Finance_Manager.Services.Interface
+{
+    public interface IEmailService
+    {
+    }
+}
+

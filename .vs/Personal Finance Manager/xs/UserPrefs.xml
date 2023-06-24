@@ -1,8 +1,68 @@
 ﻿<Properties StartupConfiguration="{6520959B-B3AF-4977-B993-A78265BBED24}|Default">
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Logger FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Personal Finance Manager.Services/Impentation/TransactionService.cs">
+    <Files>
+      <File FileName="Personal Finance Manager.Services/Interface/IAuthenticationService.cs" Line="21" Column="1" />
+      <File FileName="Personal Finance Manager.Services/Impentation/AuthenticationService.cs" Line="47" Column="39" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/RegisterUserModel.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/LoginUserModel.cs" Line="6" Column="31" />
+      <File FileName="Personal Finance Manager/Controllers/AuthenticationController.cs" />
+      <File FileName="Personal Finance Manager/Properties/launchSettings.json" />
+      <File FileName="Personal Finance Manager.Data/Interface/IRepository.cs" />
+      <File FileName="../../../../.microsoft/usersecrets/9a20fc6d-8cd2-4af8-8964-735be7f5fbf3/secrets.json" Line="5" Column="5" />
+      <File FileName="Personal Finance Manager/Program.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailVerificationModel.cs" Line="6" Column="43" />
+      <File FileName="Personal Finance Manager.Services/Interface/IEmailService.cs" Line="11" Column="19" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailServiceModel.cs" Line="14" Column="1" />
+      <File FileName="Personal Finance Manager.Services/Impentation/EmailService.cs" Line="74" Column="31" />
+      <File FileName="Personal Finance Manager/Extension/EmailExtension.cs" Line="15" Column="1" />
+      <File FileName="Personal Finance Manager/Extension/ServiceExtensions.cs" Line="11" Column="101" />
+      <File FileName="Personal Finance Manager.Data/Context/ApplicationDbContext.cs" />
+      <File FileName="Personal Finance Manager.Services/Interface/ITransationService.cs" Line="16" Column="82" />
+      <File FileName="Personal Finance Manager.Services/Personal Finance Manager.Services.csproj" Line="1" Column="1" />
+      <File FileName="Personal Finance Manager/appsettings.json" Line="20" Column="1" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailSettings.cs" Line="4" Column="31" />
+      <File FileName="../../../../.microsoft/usersecrets/f29a0d45-dbac-42a4-b077-941e3e63afdb/secrets.json" Line="10" Column="1" />
+      <File FileName="Personal Finance Manager.Services/Interface/IBudgetService.cs" Line="18" Column="1" />
+      <File FileName="Personal Finance Manager.Services/Interface/ICategoryService.cs" Line="18" Column="1" />
+      <File FileName="Personal Finance Manager.Model/Enitities/Transaction.cs" Line="40" Column="1" />
+      <File FileName="Personal Finance Manager.Services/Interface/IUserService.cs" Line="14" Column="1" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/TransactionModel.cs" Line="7" Column="18" />
+      <File FileName="Personal Finance Manager.Services/Impentation/TransactionService.cs" Line="139" Column="6" />
+      <File FileName="Personal Finance Manager.Model/Enums/TransactionType.cs" Line="4" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Personal Finance Manager" expanded="True">
+            <Node name="Personal Finance Manager" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extension" expanded="True" />
+            </Node>
+            <Node name="Personal Finance Manager.Data" expanded="True" />
+            <Node name="Personal Finance Manager.Model" expanded="True">
+              <Node name="DTOs" expanded="True">
+                <Node name="Requests" expanded="True" />
+              </Node>
+              <Node name="Enitities" expanded="True" />
+              <Node name="Enums" expanded="True" />
+            </Node>
+            <Node name="Personal Finance Manager.Services" expanded="True">
+              <Node name="Impentation" expanded="True">
+                <Node name="TransactionService.cs" selected="True" />
+              </Node>
+              <Node name="Interface" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Data FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Services FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Personal_220Finance_220Manager.Model FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

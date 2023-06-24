@@ -1,0 +1,12 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/bin/Debug/net6.0/Personal Finance Manager.Middleware.deps.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/bin/Debug/net6.0/Personal Finance Manager.Middleware.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/bin/Debug/net6.0/Personal Finance Manager.Middleware.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/refint/Personal Finance Manager.Middleware.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/Personal Finance Manager.Middleware.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Middleware/obj/Debug/net6.0/ref/Personal Finance Manager.Middleware.dll

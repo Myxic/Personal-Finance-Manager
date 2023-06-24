@@ -1,0 +1,5 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/obj/Debug/net6.0/Personal Finance Manager.Services.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/obj/Debug/net6.0/Personal Finance Manager.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/obj/Debug/net6.0/Personal Finance Manager.Services.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/obj/Debug/net6.0/Personal Finance Manager.Services.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Services/obj/Debug/net6.0/Personal Finance Manager.Services.csproj.CoreCompileInputs.cache

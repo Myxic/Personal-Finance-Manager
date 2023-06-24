@@ -1,0 +1,18 @@
+﻿using System;
+using Personal_Finance_Manager.Model.Enitities;
+
+namespace Personal_Finance_Manager.Services.Interface
+{
+    public interface ITransactionService
+    {
+        Task<Transaction> CreateTransaction(TransactionModel transactionModel);
+        Task<Transaction> GetTransactionById(int transactionId);
+        Task<IEnumerable<Transaction>> GetTransactionsByUserId(string userId);
+        Task<IEnumerable<Transaction>> GetTransactionsByCategory(string userId, string category);
+        Task<IEnumerable<Transaction>> GetTransactionsByDateRange(string userId, DateTime startDate, DateTime endDate);
+        Task<Transaction> UpdateTransaction(int transactionId, TransactionModel transactionModel);
+        Task DeleteTransaction(int transactionId);
+    }
+
+}
+

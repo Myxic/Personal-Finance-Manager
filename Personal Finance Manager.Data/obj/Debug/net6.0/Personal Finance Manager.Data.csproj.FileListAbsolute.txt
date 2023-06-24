@@ -1,0 +1,17 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Data.deps.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Data.runtimeconfig.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Data.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Data.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Model.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/bin/Debug/net6.0/Personal Finance Manager.Model.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.csproj.CopyComplete
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/refint/Personal Finance Manager.Data.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/Personal Finance Manager.Data.genruntimeconfig.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Data/obj/Debug/net6.0/ref/Personal Finance Manager.Data.dll

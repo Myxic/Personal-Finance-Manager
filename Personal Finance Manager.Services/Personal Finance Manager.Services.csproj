@@ -5,6 +5,25 @@
     <RootNamespace>Personal_Finance_Manager.Services</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>f29a0d45-dbac-42a4-b077-941e3e63afdb</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Personal Finance Manager.Model\Personal Finance Manager.Model.csproj" />
+    <ProjectReference Include="..\Personal Finance Manager.Data\Personal Finance Manager.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Interface\" />
+    <None Remove="Impentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+    <Folder Include="Impentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
+    <PackageReference Include="FluentEmail.Core" Version="3.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+  </ItemGroup>
 </Project>
