@@ -24,6 +24,7 @@ namespace Personal_Finance_Manager.Controllers
         public async Task<IActionResult> AddBudget(BudgetModel budgetModel)
         {
             string userId = _contextAccessor.HttpContext.User.GetUserId();
+
             budgetModel.UserId = userId;
 
             var addedBudget = await _budgetService.AddBudget(budgetModel);

@@ -66,6 +66,9 @@ namespace Personal_Finance_Manager.Extension
             // Register the IEmailService implementation
             services.AddTransient<IEmailService, EmailService>();
             services.AddScoped<ITransactionService, TransactionService>();
+            services.AddScoped<IBudgetService, BudgetService>();
+            services.AddScoped<IGoalService, GoalService>();
+
 
         }
     }
