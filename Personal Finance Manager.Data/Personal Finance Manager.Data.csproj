@@ -29,4 +29,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Personal Finance Manager.Model\Personal Finance Manager.Model.csproj" />
+  </ItemGroup>
 </Project>

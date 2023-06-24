@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "R9Q31jeJq4VNnAmo66xuBjpo0+h5an3cijfSGfDB4n0QDL6mndiLISLoHJXj7SX1+K/4J0gfpSZaPwe98Vwzpw==",
+  "dgSpecHash": "mXncoIsM5l3/zrnNCPHvUGehcrvI/MhcUxa2Vdy+kbrTWrLr/5e1zcmt97Qqq23s0chvKeEDCCKNrvkMMNenXg==",
   "success": true,
   "projectFilePath": "/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Logger/Personal Finance Manager.Logger.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.18/microsoft.aspnetcore.app.ref.6.0.18.nupkg.sha512",
+    "/Users/mac/.nuget/packages/microsoft.netcore.app.ref/6.0.18/microsoft.netcore.app.ref.6.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

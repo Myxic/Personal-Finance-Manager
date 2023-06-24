@@ -1,0 +1,12 @@
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/bin/Debug/net6.0/Personal Finance Manager.Model.deps.json
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/bin/Debug/net6.0/Personal Finance Manager.Model.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/bin/Debug/net6.0/Personal Finance Manager.Model.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.csproj.AssemblyReference.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.AssemblyInfoInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.AssemblyInfo.cs
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/refint/Personal Finance Manager.Model.dll
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/Personal Finance Manager.Model.pdb
+/Users/mac/Desktop/My c# Projects/My-Genaral-C--PROJECTS/Personal Finance Manager/Personal Finance Manager.Model/obj/Debug/net6.0/ref/Personal Finance Manager.Model.dll

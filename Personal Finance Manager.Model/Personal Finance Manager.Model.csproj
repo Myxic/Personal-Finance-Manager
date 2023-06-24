@@ -12,11 +12,19 @@
     <None Remove="Enitities\" />
     <None Remove="DTOs\Requests\" />
     <None Remove="DTOs\Response\" />
+    <None Remove="Enums\" />
+    <None Remove="Extension\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Enitities\" />
     <Folder Include="DTOs\Requests\" />
     <Folder Include="DTOs\Response\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Extension\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
   </ItemGroup>
 </Project>

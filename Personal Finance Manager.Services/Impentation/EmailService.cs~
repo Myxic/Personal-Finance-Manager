@@ -1,0 +1,54 @@
+﻿using System;
+using Personal_Finance_Manager.Services.Interface;
+using System.Net.Mail;
+using Personal_Finance_Manager.Model.DTOs.Requests;
+using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
+
+namespace Personal_Finance_Manager.Services.Impentation
+{
+    public class EmailService : IEmailService
+    {
+        private readonly EmailJSConfiguration _emailJSConfiguration;
+
+        public EmailService(IOptions<EmailJSConfiguration> emailJSConfiguration)
+        {
+            _emailJSConfiguration = emailJSConfiguration.Value;
+        }
+
+        private readonly EmailJSConfiguration _configuration;
+
+        public EmailService(IConfiguration configuration)
+        {
+            _configuration = configuration.GetSection("EmailJSConfiguration").Get<EmailJSConfiguration>();
+        }
+
+
+        public async Task<bool> SendEmailAsync(EmailServiceModel emailService)
+        {
+            var serviceId = _configuration.ServiceId;
+            var templateId = _configuration.TemplateId;
+            var userId = _configuration.UserId;
+
+            var emailParams = new
+            {
+                to_email = emailService.toEmail,
+                subject = emailService.subject,
+                body =  emailService.body
+            };
+
+            var result = await Email.SendAsync(serviceId, templateId, emailParams, userId);
+            if (result.Success)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+
+
+}
+
