@@ -5,12 +5,15 @@ namespace Personal_Finance_Manager.Services.Interface
 {
     public interface ICategoryService
     {
-        Category GetCategoryById(int categoryId);
-        IEnumerable<Category> GetAllCategories();
-        void CreateCategory(Category category);
-        void UpdateCategory(Category category);
-        void DeleteCategory(int categoryId);
-        // Additional methods as needed...
+        public interface ICategoryService
+        {
+            Task<IEnumerable<CategoryModel>> GetCategories();
+            Task<CategoryModel> GetCategoryById(int categoryId);
+            Task<CategoryModel> CreateCategory(CategoryModel categoryModel);
+            Task<CategoryModel> UpdateCategory(int categoryId, CategoryModel categoryModel);
+            Task DeleteCategory(int categoryId);
+        }
+
     }
 
 }

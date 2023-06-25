@@ -11,6 +11,8 @@ namespace Personal_Finance_Manager.Model.Enitities
 
         public decimal AmountAllocated { get; set; }
 
+        public int CategoryId { get; set; }
+
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
