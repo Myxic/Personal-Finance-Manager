@@ -1,5 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
+using Personal_Finance_Manager.Model.DTOs.Requests;
+using Personal_Finance_Manager.Services.Interface;
 
 namespace Personal_Finance_Manager.Controllers
 {
@@ -54,6 +56,7 @@ namespace Personal_Finance_Manager.Controllers
             return NoContent();
         }
     }
+
 
 }
 
