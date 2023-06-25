@@ -68,6 +68,10 @@ namespace Personal_Finance_Manager.Extension
             services.AddScoped<ITransactionService, TransactionService>();
             services.AddScoped<IBudgetService, BudgetService>();
             services.AddScoped<IGoalService, GoalService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+
+
 
 
         }
