@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{6520959B-B3AF-4977-B993-A78265BBED24}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../.microsoft/usersecrets/9a20fc6d-8cd2-4af8-8964-735be7f5fbf3/secrets.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Personal Finance Manager/Program.cs">
     <Files>
       <File FileName="Personal Finance Manager.Services/Interface/IAuthenticationService.cs" />
       <File FileName="Personal Finance Manager.Services/Impentation/AuthenticationService.cs" />
@@ -10,54 +10,56 @@
       <File FileName="Personal Finance Manager/Controllers/AuthenticationController.cs" />
       <File FileName="Personal Finance Manager/Properties/launchSettings.json" />
       <File FileName="Personal Finance Manager.Data/Interface/IRepository.cs" />
-      <File FileName="../../../../.microsoft/usersecrets/9a20fc6d-8cd2-4af8-8964-735be7f5fbf3/secrets.json" Line="5" Column="5" />
-      <File FileName="Personal Finance Manager/Program.cs" />
+      <File FileName="../../../../.microsoft/usersecrets/9a20fc6d-8cd2-4af8-8964-735be7f5fbf3/secrets.json" />
+      <File FileName="Personal Finance Manager/Program.cs" Line="1" Column="1" />
       <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailVerificationModel.cs" />
       <File FileName="Personal Finance Manager.Services/Interface/IEmailService.cs" />
       <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailServiceModel.cs" />
       <File FileName="Personal Finance Manager.Services/Impentation/EmailService.cs" />
       <File FileName="Personal Finance Manager/Extension/EmailExtension.cs" />
-      <File FileName="Personal Finance Manager/Extension/ServiceExtensions.cs" Line="78" Column="6" />
+      <File FileName="Personal Finance Manager/Extension/ServiceExtensions.cs" />
       <File FileName="Personal Finance Manager.Data/Context/ApplicationDbContext.cs" />
-      <File FileName="Personal Finance Manager.Services/Interface/ITransationService.cs" Line="15" Column="46" />
+      <File FileName="Personal Finance Manager.Services/Interface/ITransationService.cs" />
       <File FileName="Personal Finance Manager.Services/Personal Finance Manager.Services.csproj" />
       <File FileName="Personal Finance Manager/appsettings.json" />
       <File FileName="Personal Finance Manager.Model/DTOs/Requests/EmailSettings.cs" />
       <File FileName="../../../../.microsoft/usersecrets/f29a0d45-dbac-42a4-b077-941e3e63afdb/secrets.json" />
-      <File FileName="Personal Finance Manager.Services/Interface/IBudgetService.cs" Line="15" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Interface/ICategoryService.cs" Line="16" Column="1" />
-      <File FileName="Personal Finance Manager.Model/Enitities/Transaction.cs" Line="15" Column="44" />
-      <File FileName="Personal Finance Manager.Services/Interface/IUserService.cs" Line="15" Column="1" />
-      <File FileName="Personal Finance Manager.Model/DTOs/Requests/TransactionModel.cs" Line="18" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Impentation/TransactionService.cs" Line="106" Column="33" />
+      <File FileName="Personal Finance Manager.Services/Interface/IBudgetService.cs" />
+      <File FileName="Personal Finance Manager.Services/Interface/ICategoryService.cs" Line="18" Column="1" />
+      <File FileName="Personal Finance Manager.Model/Enitities/Transaction.cs" />
+      <File FileName="Personal Finance Manager.Services/Interface/IUserService.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/TransactionModel.cs" />
+      <File FileName="Personal Finance Manager.Services/Impentation/TransactionService.cs" />
       <File FileName="Personal Finance Manager.Model/Enums/TransactionType.cs" />
-      <File FileName="Personal Finance Manager/Controllers/TranscationController.cs" Line="114" Column="73" />
-      <File FileName="Personal Finance Manager/Extension/UserExtension.cs" Line="15" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Impentation/BudgetService.cs" Line="81" Column="8" />
-      <File FileName="Personal Finance Manager.Services/Interface/IBudgetService.cs~" Line="18" Column="1" />
-      <File FileName="Personal Finance Manager.Model/DTOs/Requests/BudgetModel.cs" Line="8" Column="44" />
-      <File FileName="Personal Finance Manager.Model/Enitities/Budget.cs" Line="25" Column="1" />
-      <File FileName="Personal Finance Manager/Controllers/BudgetController.cs" Line="27" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Interface/IGoalService.cs" Line="15" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Impentation/GoalService.cs" Line="82" Column="1" />
-      <File FileName="Personal Finance Manager/Controllers/GoalController.cs" Line="78" Column="1" />
-      <File FileName="Personal Finance Manager.Model/Enitities/Goal.cs" Line="30" Column="1" />
-      <File FileName="Personal Finance Manager.Model/DTOs/Requests/GoalModel.cs" Line="17" Column="1" />
-      <File FileName="Personal Finance Manager.Model/Enitities/User.cs" Line="6" Column="19" />
-      <File FileName="Personal Finance Manager.Model/DTOs/Requests/UserModel.cs" Line="15" Column="1" />
-      <File FileName="Personal Finance Manager/Controllers/UserController.cs" Line="40" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Impentation/UserService.cs" Line="73" Column="1" />
-      <File FileName="Personal Finance Manager/Controllers/CategoryController.cs" Line="57" Column="1" />
-      <File FileName="Personal Finance Manager.Model/DTOs/Requests/CategoryModel.cs" Line="13" Column="1" />
-      <File FileName="Personal Finance Manager/Extension/ServiceExtensions.cs~" Line="1" Column="1" />
-      <File FileName="Personal Finance Manager.Services/Impentation/CategoryService.cs" Line="91" Column="1" />
-      <File FileName="Personal Finance Manager.Model/Enitities/Category.cs" Line="11" Column="1" />
+      <File FileName="Personal Finance Manager/Controllers/TranscationController.cs" />
+      <File FileName="Personal Finance Manager/Extension/UserExtension.cs" />
+      <File FileName="Personal Finance Manager.Services/Impentation/BudgetService.cs" />
+      <File FileName="Personal Finance Manager.Services/Interface/IBudgetService.cs~" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/BudgetModel.cs" />
+      <File FileName="Personal Finance Manager.Model/Enitities/Budget.cs" />
+      <File FileName="Personal Finance Manager/Controllers/BudgetController.cs" />
+      <File FileName="Personal Finance Manager.Services/Interface/IGoalService.cs" />
+      <File FileName="Personal Finance Manager.Services/Impentation/GoalService.cs" />
+      <File FileName="Personal Finance Manager/Controllers/GoalController.cs" />
+      <File FileName="Personal Finance Manager.Model/Enitities/Goal.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/GoalModel.cs" />
+      <File FileName="Personal Finance Manager.Model/Enitities/User.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/UserModel.cs" />
+      <File FileName="Personal Finance Manager/Controllers/UserController.cs" />
+      <File FileName="Personal Finance Manager.Services/Impentation/UserService.cs" />
+      <File FileName="Personal Finance Manager/Controllers/CategoryController.cs" />
+      <File FileName="Personal Finance Manager.Model/DTOs/Requests/CategoryModel.cs" />
+      <File FileName="Personal Finance Manager/Extension/ServiceExtensions.cs~" />
+      <File FileName="Personal Finance Manager.Services/Impentation/CategoryService.cs" />
+      <File FileName="Personal Finance Manager.Model/Enitities/Category.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Personal Finance Manager" expanded="True">
-            <Node name="Personal Finance Manager" selected="True" />
+            <Node name="Personal Finance Manager" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

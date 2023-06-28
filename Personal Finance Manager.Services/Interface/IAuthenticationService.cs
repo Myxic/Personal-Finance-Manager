@@ -4,8 +4,7 @@ using Personal_Finance_Manager.Model.Enitities;
 
 namespace Personal_Finance_Manager.Services.Interface
 {
-    public interface IAuthenticationService
-    {
+
         public interface IAuthenticationService
         {
             Task<User> RegisterUser(RegisterUserModel userModel);
@@ -15,6 +14,5 @@ namespace Personal_Finance_Manager.Services.Interface
             
         }
 
-    }
 }
 

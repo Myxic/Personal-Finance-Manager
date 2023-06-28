@@ -11,6 +11,9 @@ using Personal_Finance_Manager.Services.Impentation;
 //using IAuthenticationService = Personal_Finance_Manager.Services.Interface.IAuthenticationService;
 using Personal_Finance_Manager.Model.DTOs.Requests;
 using Personal_Finance_Manager.Data;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using static System.Collections.Specialized.BitVector32;
+using System.Runtime.Intrinsics.X86;
 
 namespace Personal_Finance_Manager.Extension
 {
@@ -41,9 +44,7 @@ namespace Personal_Finance_Manager.Extension
 
             // Other service registrations
             // Add the required services for authentication and Identity
-            services.AddIdentity<User, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+            
 
             // Configure the authentication options
             services.Configure<IdentityOptions>(options =>
@@ -64,6 +65,7 @@ namespace Personal_Finance_Manager.Extension
             // Register the IAuthenticationService and AuthenticationService
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             // Register the IEmailService implementation
+            services.AddScoped<IUnitOfWork, UnitOfWork<ApplicationDbContext>>();
             services.AddTransient<IEmailService, EmailService>();
             services.AddScoped<ITransactionService, TransactionService>();
             services.AddScoped<IBudgetService, BudgetService>();
@@ -76,6 +78,8 @@ namespace Personal_Finance_Manager.Extension
 
         }
     }
+    //dotnet ef migrations add AddingEntities --startup-project./Personal\ Finance\ Manager --project./Personal\ Finance\ Manager.Data
+    //dotnet ef database update  --startup-project ./Personal\ Finance\ Manager
 
 }
 

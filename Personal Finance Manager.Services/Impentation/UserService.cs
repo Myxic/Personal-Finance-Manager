@@ -62,7 +62,7 @@ namespace Personal_Finance_Manager.Services.Impentation
         {
             return new UserModel
             {
-                UserId = user.ID,
+                UserId = user.UserID,
                 UserName = user.UserName,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
@@ -76,7 +76,7 @@ namespace Personal_Finance_Manager.Services.Impentation
             if (existingUser == null)
                 existingUser = new User();
 
-            existingUser.ID = userModel.UserId;
+            existingUser.UserID = userModel.UserId;
             existingUser.UserName = userModel.UserName;
             existingUser.FirstName = userModel.FirstName;
             existingUser.LastName = userModel.LastName;

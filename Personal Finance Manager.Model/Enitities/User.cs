@@ -5,7 +5,7 @@ namespace Personal_Finance_Manager.Model.Enitities
 {
      public class User : IdentityUser
     {
-        public Guid ID { get; set; }
+        public Guid UserID { get; set; }
 
         public string UserName { get; set; }
 

@@ -21,6 +21,22 @@ public class ApplicationDbContext : IdentityDbContext<User>
 
         // Customize the default Identity table names, schema, etc. if needed
         // Configure additional relationships, constraints, etc.
+        modelBuilder.Entity<Budget>()
+         .Property(b => b.AmountAllocated)
+         .HasColumnType("decimal(18, 2)");
+
+        modelBuilder.Entity<Goal>()
+        .Property(g => g.CurrentAmountSaved)
+        .HasColumnType("decimal(18, 2)");
+
+        modelBuilder.Entity<Goal>()
+        .Property(g => g.TargetAmount)
+        .HasColumnType("decimal(18, 2)");
+
+        modelBuilder.Entity<Transaction>()
+        .Property(g => g.Amount)
+        .HasColumnType("decimal(18, 2)");
+
 
         // Example: Rename the Identity tables
         modelBuilder.Entity<User>().ToTable("Users");
@@ -32,3 +48,5 @@ public class ApplicationDbContext : IdentityDbContext<User>
         modelBuilder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
     }
 }
+
+
